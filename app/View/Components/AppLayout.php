@@ -4,6 +4,8 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
+
+
 class AppLayout extends Component
 {
     /**
@@ -16,3 +18,5 @@ class AppLayout extends Component
         return view('layouts.app');
     }
 }
+
+
